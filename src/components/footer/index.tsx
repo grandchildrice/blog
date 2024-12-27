@@ -14,12 +14,12 @@ export async function Footer() {
   return (
     <footer className="w-full bg-footer text-footer-text px-4 md:px-0">
       <div className="xl:max-w-screen-xl md:max-w-screen-md mx-auto py-4 flex">
-        <h5 className="text-sm leading-6 h-6">© 2023 {userName}</h5>
+        <h5 className="text-sm leading-6 h-6">© 2024 {userName}</h5>
         <div className="grow" />
         <div className="flex">
           <div className="mr-4">
             <Link
-              href="https://twitter.com"
+              href="https://twitter.com/grandchildrice"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -28,7 +28,7 @@ export async function Footer() {
           </div>
           <div>
             <Link
-              href="https://github.com"
+              href="https://github.com/grandchildrice"
               rel="noopener noreferrer"
               target="_blank"
             >
